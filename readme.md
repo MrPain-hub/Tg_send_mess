@@ -20,4 +20,10 @@ To get your id, you need to write to the bot in the telegram @getmyid_bot/\
         Find out your ID -> @getmyid_bot
 
 The class sends a message to the user or to the chat, which makes it possible to notify about the completion of the script execution in telegram./\
-Класс отправляет сообщение пользователю или в чат, что дает возможность оповестить о завершении выполнения скрипта в telegram.
+Класс отправляет сообщение пользователю или в чат, что дает возможность оповестить о завершении выполнения py скрипта в telegram.
+
+Пример:
+        
+        bot = RequestsBot(token=token, recipient_id=user_id)
+        bot.send_text("❤️")     # метод отправки сообщения
+        
